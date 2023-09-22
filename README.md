@@ -1,6 +1,9 @@
 # Project Name: LLMs QLORA Fine-Tuner
 
 ## Description:
+
+![1_e2xnfI4zDhih3U8bOBNacg](https://github.com/Kirouane-Ayoub/qlora_tunner/assets/99510125/24d47f2e-45b5-474f-bb2d-bc41232a2c25)
+
 QLORA Fine-Tuner is a Python library designed for efficient fine-tuning of Large Language Models (LLMs) using quantized low-rank adapters. It reduces the number of trainable parameters and GPU memory requirements, making fine-tuning accessible for a wide range of applications.
 
 ## Qlora : 
