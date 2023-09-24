@@ -7,9 +7,9 @@
 QLORA Fine-Tuner is a Python library designed for efficient fine-tuning of Large Language Models (LLMs) using quantized low-rank adapters. It reduces the number of trainable parameters and GPU memory requirements, making fine-tuning accessible for a wide range of applications.
 
 ## Qlora : 
-QLoRA, or Quantized Low Rank Adapters, is a new approach to fine-tuning large language models (LLMs) that uses less memory while maintaining speed. It was developed by researchers at the University of Washington and released in May 2023.
+QLoRA, or Quantized Low-Rank Adapters, is a new approach to fine-tuning large language models (LLMs) that uses less memory while maintaining speed. It was developed by researchers at the University of Washington and released in May 2023.
 
-QLoRA works by first quantizing the LLM to 4-bits, which reduces the model's memory footprint significantly. The quantized LLM is then fine-tuned using a technique called Low Rank Adapters (LoRA). LoRA enables the refined model to preserve the majority of the accuracy of the original LLM while being significantly smaller and quicker.
+QLoRA works by first quantizing the LLM to 4-bits, which reduces the model's memory footprint significantly. The quantized LLM is then fine-tuned using a technique called Low-Rank Adapters (LoRA). LoRA enables the refined model to preserve the majority of the accuracy of the original LLM while being significantly smaller and quicker.
 
 ## Key Features:
 
@@ -121,3 +121,4 @@ while 1 :
   input_text = input(">>")
   print(chat.predict(input=str(input_text)))
 ```
++ **Author** : Kirouane Ayoub
